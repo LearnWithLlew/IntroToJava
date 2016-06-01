@@ -1,0 +1,9 @@
+*.class
+
+bin
+.metadata
+.recommenders
+.DS_Store
+
+# Package Files #
+
