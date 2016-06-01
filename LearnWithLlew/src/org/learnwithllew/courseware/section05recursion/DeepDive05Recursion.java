@@ -10,7 +10,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.learnwithllew.teachingextensions.logo.Colors;
-import org.learnwithllew.teachingextensions.logo.Tortoise;
+import org.learnwithllew.teachingextensions.logo.TurtlePanel;
 
 
 public class DeepDive05Recursion
@@ -146,5 +146,12 @@ public class DeepDive05Recursion
   {
     Cursor cursor = Tortoise.getBackgroundWindow().getCursor();
     return cursor;
+  }
+  public static class Tortoise extends org.learnwithllew.teachingextensions.logo.Tortoise
+  {
+    public static TurtlePanel ___()
+    {
+      return new TurtlePanel();
+    }
   }
 }

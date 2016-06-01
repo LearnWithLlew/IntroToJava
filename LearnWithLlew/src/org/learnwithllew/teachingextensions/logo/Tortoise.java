@@ -186,17 +186,6 @@ public class Tortoise
     turtle().setAnimal(animal);
   }
   /**
-   * Changes the type of animal you are using. <br/>
-   * <div><b>Example:</b> {@code  Tortoise.setAnimal(Animals.Spider);}</div>
-   * 
-   * @return the angle in degrees of the Tortoise
-   * @see Animals
-   */
-  public static void explode()
-  {
-    turtle().setAnimal(Animals.ExplodedTurtle);
-  }
-  /**
    * Makes it so the tortoise will not draw a line of color out of it's butt. <br/>
    * <b>Example:</b> {@code  Tortoise.penUp()}
    */
@@ -247,9 +236,5 @@ public class Tortoise
   public static void moveTo(int x, int y)
   {
     turtle().moveTo(x, y);
-  }
-  public static TurtlePanel ___()
-  {
-    return new TurtlePanel();
   }
 }
