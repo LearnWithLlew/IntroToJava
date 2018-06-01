@@ -7,7 +7,7 @@ import java.io.File;
 
 import javax.imageio.ImageIO;
 
-import com.spun.util.MySystem;
+import com.spun.util.logger.SimpleLogger;
 
 public class VirtualProctorFileSystem extends WindowAdapter
 {
@@ -27,7 +27,7 @@ public class VirtualProctorFileSystem extends WindowAdapter
     }
     catch (Exception e)
     {
-      MySystem.warning(e);
+      SimpleLogger.warning(e);
     }
   }
 }

@@ -32,7 +32,7 @@ public class Tortoise
   }
   /**
    * Gets the speed that the tortoise moves
-   * <div><b>Example:</b> {@code int speed =  Tortoise.getSpeed(8);}</div>
+   * <div><b>Example:</b> {@code int speed =  Tortoise.getSpeed();}</div>
    * 
    * @return the speed the Tortoise is currently set to
    */

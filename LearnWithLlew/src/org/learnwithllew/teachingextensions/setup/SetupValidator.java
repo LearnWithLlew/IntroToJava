@@ -12,7 +12,7 @@ import com.spun.util.io.ZipUtils;
 public class SetupValidator
 {
   public enum SetupCheckPoints {
-    MetadataUnzipped, EclipseIsInstalled, WorkspaceFound
+                                MetadataUnzipped, EclipseIsInstalled, WorkspaceFound
   }
   public static void main(String[] args)
   {
@@ -26,7 +26,7 @@ public class SetupValidator
     }
     catch (Throwable t)
     {
-      MessageBox.showMessage("Something went wrong: \r\n" + t.getMessage());
+      MessageBox.showMessage("Something went wrong: \n" + t.getMessage());
     }
   }
   private static void launchEclipse(SetupConfig config)
@@ -61,8 +61,8 @@ public class SetupValidator
       boolean metadata = new File(metadataPath).exists();
       if (!metadata)
       {
-        ZipUtils.doUnzip(new File(config.workspacePath), new File(config.workspacePath + File.separator
-            + "eclipse_workspace.zip"));
+        ZipUtils.doUnzip(new File(config.workspacePath),
+            new File(config.workspacePath + File.separator + "eclipse_workspace.zip"));
       }
     }
     catch (IOException e)
@@ -80,7 +80,7 @@ public class SetupValidator
       File simpleSquare = new File(config.workspacePath + File.separator + realtivePath);
       config.setup.set(SetupCheckPoints.WorkspaceFound, simpleSquare.exists(),
           "could not find the LearnWithLlew workspace at " + config.workspacePath
-              + "\r\n The Following File should exist:" + simpleSquare.getAbsolutePath());
+              + "\n The Following File should exist:" + simpleSquare.getAbsolutePath());
     }
     catch (IOException e)
     {
