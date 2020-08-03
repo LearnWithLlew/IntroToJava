@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>starterproject</groupId>
-	<artifactId>approvaltests_playground</artifactId>
+	<groupId>org.learnwithllew</groupId>
+	<artifactId>IntroToJava</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<build>
 		<plugins>
@@ -20,10 +20,17 @@
 	</build>
 
 	<dependencies>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.approvaltests</groupId>
 			<artifactId>approvaltests</artifactId>
 			<version>3.2.0</version>
+		</dependency> -->
+		<dependency>
+			<groupId>org.learnwithllew</groupId>
+			<artifactId>LearnWithLlew</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/jars/LearnWithLlew.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.google.code.gson</groupId>

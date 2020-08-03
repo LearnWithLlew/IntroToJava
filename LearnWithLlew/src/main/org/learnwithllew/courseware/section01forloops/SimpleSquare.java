@@ -1,6 +1,8 @@
 package org.learnwithllew.courseware.section01forloops;
 
 
+import org.learnwithllew.teachingextensions.logo.Tortoise;
+
 public class SimpleSquare
 {
   public static void main(String[] args) throws Exception
