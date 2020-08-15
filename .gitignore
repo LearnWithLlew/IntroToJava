@@ -4,6 +4,7 @@ bin
 .metadata
 .recommenders
 .DS_Store
-
+~*
+LearnWithLlew/target
 # Package Files #
 

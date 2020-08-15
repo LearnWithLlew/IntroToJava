@@ -1,5 +1,10 @@
 package org.learnwithllew.courseware.section02methods;
 
+
+/**
+ * The completed recipe should look like this: <br />
+ * <img src="https://raw.githubusercontent.com/LearnWithLlew/IntroToJava.sources/master/src/org/learnwithllew/teachingextensions/logo/tests/RecipeTests.testFourSquare.approved.png" align="left" >
+ */
 public class FourSquare
 {
   public static void main(String[] args)
