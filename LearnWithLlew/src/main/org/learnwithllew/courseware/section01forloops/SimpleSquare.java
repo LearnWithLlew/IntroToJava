@@ -3,6 +3,11 @@ package org.learnwithllew.courseware.section01forloops;
 
 import org.learnwithllew.teachingextensions.logo.Tortoise;
 
+
+/**
+ * The completed recipe should look like this: <br />
+ * <img src="https://raw.githubusercontent.com/LearnWithLlew/IntroToJava.sources/master/src/org/learnwithllew/teachingextensions/logo/tests/RecipeTests.testSimpleSquare.approved.png">
+ */
 public class SimpleSquare
 {
   public static void main(String[] args) throws Exception
