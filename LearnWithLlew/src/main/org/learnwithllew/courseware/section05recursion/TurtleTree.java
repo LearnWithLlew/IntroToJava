@@ -1,5 +1,8 @@
 package org.learnwithllew.courseware.section05recursion;
-
+/**
+ * The completed recipe should look like this: <br />
+ * <img src="https://raw.githubusercontent.com/LearnWithLlew/IntroToJava.sources/master/src/test/org/learnwithllew/courseware/recipes/completed/TurtleTree.testCompleted.approved.png">
+ */
 public class TurtleTree
 {
   public static void main(String[] args)

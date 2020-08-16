@@ -1,5 +1,8 @@
-package org.learnwithllew.courseware.section05recursion;
-
+package org.learnwithllew.courseware.section04mastery;
+/**
+ * The completed recipe should look like this: <br />
+ * <img src="https://raw.githubusercontent.com/LearnWithLlew/IntroToJava.sources/master/src/test/org/learnwithllew/courseware/recipes/completed/SpiderWeb.testCompleted.approved.png">
+ */
 public class SpiderWeb
 {
   public static void main(String[] args)

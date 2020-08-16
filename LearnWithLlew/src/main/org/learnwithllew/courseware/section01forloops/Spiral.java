@@ -1,5 +1,8 @@
 package org.learnwithllew.courseware.section01forloops;
-
+/**
+ * The completed recipe should look like this: <br />
+ * <img src="https://raw.githubusercontent.com/LearnWithLlew/IntroToJava.sources/master/src/test/org/learnwithllew/courseware/recipes/completed/Spiral.testCompleted.approved.png">
+ */
 public class Spiral
 {
   public static void main(String[] args)

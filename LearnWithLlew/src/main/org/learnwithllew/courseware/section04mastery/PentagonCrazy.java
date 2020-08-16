@@ -1,5 +1,9 @@
 package org.learnwithllew.courseware.section04mastery;
 
+/**
+ * The completed recipe should look like this: <br />
+ * <img src="https://raw.githubusercontent.com/LearnWithLlew/IntroToJava.sources/master/src/test/org/learnwithllew/courseware/recipes/completed/PentagonCrazy.testCompleted.approved.png">
+ */
 public class PentagonCrazy
 {
   public static void main(String[] args)
